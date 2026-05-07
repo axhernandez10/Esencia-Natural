@@ -321,29 +321,25 @@ body {
 
 
 /*======logo=========*/
-/* Contenedor principal */
-/* Header base */
-.hero {
+.header-contenido {
   position: relative;
-  text-align: center;
-  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-/* Logo a la izquierda */
-/* Logo mejorado */
+/* Logo */
 .logo {
   position: absolute;
   left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
 
-  width: 200px;        /* 👈 más grande (ajusta 100–150) */
+  width: 120px;
   height: auto;
 
-  border-radius: 20px; /* 👈 esquinas curvas */
+  border-radius: 20px;
 }
 
-/* Texto centrado REAL */
+/* Texto centrado */
 .texto-header {
   text-align: center;
 }
